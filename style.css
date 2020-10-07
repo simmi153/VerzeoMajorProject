@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@200&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  padding: 2%;
+}
+
+.header__main__navbars {
+  padding: 1%;
+}
+.header__main__navbars {
+  display: flex;
+  list-style-type: none;
+  outline: none;
+  /* border:2px solid red; */
+}
+
+ul li a {
+  outline: none;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Nunito;
+  color: rgb(183, 59, 187);
+}
+
+.header__main__heading h1 {
+  font-size: 59px;
+  letter-spacing: 3px;
+  word-spacing: 4px !important;
+  color: rgb(250, 142, 0);
+}
+.header__main__heading {
+  /* border:2px solid red; */
+  margin-top: 0% !important;
+}
+.header__main__navbars > ul {
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+.header__main__navbars {
+  /* border:2px solid red; */
+  margin-top: 2%;
+}
+
+.section__main {
+  /* border:2px solid red; */
+  margin-top: 2%;
+  overflow: hidden;
+}
+.section__main__img {
+  /* border:2px solid red; */
+}
+
+.section__main__img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+.section__welcome {
+  /* border:2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  margin-top: 4%;
+}
+.section__welcome__header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Montserrat;
+  color: orange;
+  /* margin-bottom:4%; */
+  /* border-bottom:3px solid rgb(192, 31, 31); */
+  /* padding-bottom:4%; */
+}
+.section__welcome__header {
+  margin-top: 2%;
+}
+
+.section__welcome__tag h1 {
+  margin-top: 5%;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  font-weight: 200;
+  color: rgb(80, 161, 142);
+}
+.section__welcome__content {
+  margin-top: 4%;
+}
+.section__welcome__content h1 {
+  /* border:2px solid red; */
+  width: 45%;
+  margin: auto;
+  text-align: left;
+  font-family: Nunito;
+  letter-spacing: 1.5px;
+  font-weight: 404;
+  color: rgb(190, 14, 196);
+  font-size: 17px;
+  word-spacing: 2px;
+  line-height: 27px;
+}
+
+.section__whatwedo {
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.section__whatwedo__nonimg {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  height: 90vh;
+  width: 500px;
+  /* border:3px solid red; */
+}
+.section__whatwedo__nonimg__header h1 {
+  /* border:3px solid red; */
+  font-family: Montserrat;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
+  padding-bottom: 2%;
+  width: fit-content;
+  margin-bottom: 2%;
+  color: orange;
+}
+.section__whatwedo__nonimg__content p {
+  text-align: left;
+  letter-spacing: 1.5px;
+  font-weight: 404;
+  font-size: 16px;
+  word-spacing: 2px;
+  line-height: 27px;
+  color: rgb(190, 14, 196);
+  width: 500px;
+}
+.section__whatwedo__nonimg__content {
+  margin-top: 3%;
+  font-family: Nunito;
+}
+.margin-top {
+  margin-top: 3%;
+}
+
+.section__whatwedo__img img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+.section__whatwedo__nonimg {
+  width: 3000px !important;
+  padding: 5%;
+}
+.section__whatwedo__img {
+  padding: 5%;
+}
+
+.flexreverse {
+  flex-direction: row;
+}
+
+.section__whatwedo__img2 img {
+  width: 440px;
+  height: 500px;
+  object-fit: contain;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header__main__heading h1 {
+  font-family: Montserrat;
+}
+
+.section__work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section__work__images__row__col img {
+  width: 100%;
+}
+.section__work__images {
+  /* border:3px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.section__work__images__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border:2px solid rgb(15, 197, 143); */
+}
+.section__work img {
+  height: 200px;
+  width: 340px;
+}
+.section__work__images__row {
+  margin-top: -4px;
+  /* margin-bottom:0px !important; */
+  padding: 1%;
+}
+.section__work__images__row__col {
+  padding: 2%;
+}
+
+.section__work__header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Montserrat;
+  margin-bottom: 28%;
+  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
+  padding-bottom: 4%;
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ...................VERZEO MAJOR PROJECT ...................  */
