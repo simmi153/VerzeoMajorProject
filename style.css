@@ -253,3 +253,217 @@ ul li a {
 
 
 /* ...................VERZEO MAJOR PROJECT ...................  */
+
+
+
+
+
+
+
+/*****************************************************************************/
+
+.content{
+  background:  white;
+  width: 1300px;
+  height:570px;
+  display: block;
+  float: right;
+  margin-right: 120px;
+  margin-bottom: 2%;
+  box-shadow: -5px 5px 5px 1px rgba(255, 166, 0, 0.637);
+  border: 1px solid orange;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container  {
+  text-align: justify;
+  background-color:  white;
+  padding: 4px 32px;
+  color: #222222;
+  width: 100%;
+  display: block;
+
+  top: 80%;
+  z-index: 1;
+position: absolute;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* Six columns side by side */
+.column {
+  /* bottom: 50%;
+  margin-left: 100%; */
+  width: 15%;
+  float: right;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  float: right;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.table {
+  padding: 0%;
+}
+.table tr{
+  height: 0%;
+
+}   
+.table td {
+  width: 50%;
+  height: 0%;
+}
+.table img {
+  margin: 0%;
+  display: block;
+  border: 10px solid rgba(255, 166, 0, 0.562);
+  border-radius: 5px;
+}
+#para{
+  background: yellow;
+  width: 50%;
+  height: 20%;
+  bottom: 0%;
+}
+
+.secondcontent {
+  margin: auto;
+  width: 1300px;
+  height:200px;
+  display: block;
+  float: right;
+  margin-right: 120px;
+  margin-bottom: 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row2 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 23%;
+  margin-left: 2%;
+  box-shadow: -5px 5px 5px rgba(255, 166, 0, 0.363);
+  border: 1px solid orange;
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+   background-color: rgba(255, 166, 0, 0.356); 
+  padding: 10px;
+  color:  #222222;
+}
+.section__design__header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Montserrat;
+   margin-bottom: 15%; 
+  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
+  padding-bottom: 2%;
+  color: orange;
+}
+
+/*****************************************************************************/
