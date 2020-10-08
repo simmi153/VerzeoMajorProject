@@ -3,3 +3,6 @@
 ![frame4](frame4.png)
 ![frame2](frame2.png)
 ![frame3](frame3.png)
+![frame3](frame6.png)
+![frame3](frame7.png)
+![frame3](frame8.png)
