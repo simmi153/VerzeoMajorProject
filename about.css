@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@200&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  margin: auto;
+  padding: 2%;
+  box-shadow: 0px 5px 23px -4px rgba(0, 0, 0, 0.75);
+  background: rgb(255,244,238);
+  background: linear-gradient(90deg, rgba(255,244,238,1) 15%, rgba(245,241,236,1) 51%, rgba(255,252,246,1) 93%);
+}
+
+.header__main__navbars {
+  padding: 1%;
+}
+.header__main__navbars {
+  display: flex;
+  list-style-type: none;
+  outline: none;
+  /* border:2px solid red; */
+}
+
+ul li a {
+  outline: none;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Nunito;
+  color: rgb(183, 59, 187);
+}
+
+.header__main__heading h1 {
+  font-size: 59px;
+  letter-spacing: 3px;
+  word-spacing: 4px !important;
+  color: rgb(250, 142, 0);
+  font-family: Montserrat;
+}
+.header__main__heading {
+  /* border:2px solid red; */
+  margin-top: 0% !important;
+}
+.header__main__navbars > ul {
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+.header__main__navbars {
+  /* border:2px solid red; */
+  margin-top: 2%;
+}
+
+/*------about------*/
+
+.section__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section__about__header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Montserrat;
+  margin-top: 25%;
+  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
+  padding-bottom: 4%;
+  color: orange;
+}
+
+.fullbody{
+  top: 55%;
+  position: absolute;
+  width: 100%;
+  padding-left: 2%;
+} 
+
+.heading {
+  color: #212121;
+}
+.abtpara {
+  width: 50%;
+  word-wrap: break-word;
+  margin-left:4%;
+  justify-content: center;
+  padding-bottom: 2%;
+  font-family: Nunito;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #222222;
+  font-size: 15px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.pic {
+  width: 40%;
+  float: right;
+  padding-right: 6%;
+  margin-top: -30%;
+}
+
+
+/******************* designs ********************/
+
+* {box-sizing: border-box;}
+
+.mySlides .mySlides1  {display: block;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  /* color: #f2f2f2; */
+  /* font-size: 15px; */
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: Nunito;
+  letter-spacing: 1px;
+  font-weight: 500;
+  /* color: rgb(190, 14, 196); */
+  color: #222222;
+  font-size: 15px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.content{
+  background:  white;
+  width: 1300px;
+  height:570px;
+  display: block;
+  float: right;
+  margin-right: 120px;
+  margin-bottom: 2%;
+  box-shadow: -5px 5px 5px 1px rgba(255, 166, 0, 0.637);
+  border: 1px solid orange;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container  {
+  text-align: justify;
+  background-color:  white;
+  padding: 4px 32px;
+  color: #222222;
+  width: 100%;
+  display: block;
+
+  top: 80%;
+  z-index: 1;
+position: absolute;
+
+font-family: Nunito;
+letter-spacing: 0.5px;
+font-weight: 500;
+/* color: rgb(190, 14, 196); */
+color: #222222;
+font-size: 15px;
+word-spacing: 2px;
+line-height: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* Six columns side by side */
+.column {
+  /* bottom: 50%;
+  margin-left: 100%; */
+  width: 15%;
+  float: right;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  float: right;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.table {
+  padding: 0%;
+}
+.table tr{
+  height: 0%;
+
+}   
+.table td {
+  width: 50%;
+  height: 0%;
+}
+.table img {
+  margin: 0%;
+  display: block;
+  border: 10px solid rgba(255, 166, 0, 0.562);
+  border-radius: 5px;
+}
+#para{
+  background: yellow;
+  width: 50%;
+  height: 20%;
+  bottom: 0%;
+}
+
+/************** recennt projects ****************/
+
+.secondcontent {
+  margin: auto;
+  width: 1300px;
+  height:200px;
+  display: block;
+  float: right;
+  margin-right: 120px;
+  margin-bottom: 2%;
+  font-family: Nunito;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #222222;
+  font-size: 15px;
+  word-spacing: 2px;
+  line-height: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row2 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 23%;
+  margin-left: 2%;
+  box-shadow: -5px 5px 5px rgba(255, 166, 0, 0.363);
+  border: 1px solid orange;
+
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+  background-color: rgba(255, 166, 0, 0.356); 
+  padding: 10px;
+  color:  #222222;
+}
+.section__design__header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Montserrat;
+  margin-bottom: 10%; 
+  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
+  padding-bottom: 2%;
+  color: orange;
+}
+
+.section__work {
+  margin-top:40%;
+}

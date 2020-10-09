@@ -260,211 +260,270 @@ ul li a {
 
 
 
-/*****************************************************************************/
 
-.content{
-  background:  white;
-  width: 1300px;
-  height:570px;
-  display: block;
-  float: right;
-  margin-right: 120px;
-  margin-bottom: 2%;
-  box-shadow: -5px 5px 5px 1px rgba(255, 166, 0, 0.637);
-  border: 1px solid orange;
-  margin: auto;
+
+
+
+.secondcontent{
+  /* border:9px solid red; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top:4%;
+  margin:auto !important;
+  margin-bottom:20% !important;
+}
+.row2{
+  /* border:2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-top:4%;
+  margin:auto !important;
+  margin-right:5% !important;
+  margin-left:2% !important;
+ 
+  
 }
 
-* {
-  box-sizing: border-box;
+.section__ourrecentprojects{
+  /* border:2px solid red; */
 }
 
-img {
-  vertical-align: middle;
-}
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-  width: 60%;
-  float: left;
-  overflow: hidden;
-  height: 100%;
-}
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
-/* Container for image text */
-.caption-container  {
-  text-align: justify;
-  background-color:  white;
-  padding: 4px 32px;
-  color: #222222;
+.section__footer{
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  display: block;
-
-  top: 80%;
-  z-index: 1;
-position: absolute;
+  height: fit-content;
+  /* background-color: rgb(128, 56, 56); */
+  /* border:2px solid red; */
+  box-shadow: 0px 5px 23px -4px rgba(0, 0, 0, 0.75);
+  background: rgb(255,244,238);
+  background: linear-gradient(90deg, rgba(255,244,238,1) 15%, rgba(245,241,236,1) 51%, rgba(255,252,246,1) 93%);
 }
+.section__footer__upper{
+  display: flex;
+  /* border:2px solid red; */
+  padding:5%;
+  height: 300px;
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
-
-/* Six columns side by side */
-.column {
-  /* bottom: 50%;
-  margin-left: 100%; */
-  width: 15%;
-  float: right;
+  justify-content: space-around;
+  /* align-items: center; */
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-  float: right;
-}
+/* Part 1 */
 
-.active,
-.demo:hover {
-  opacity: 1;
+.section__footer__upper__Verzeo{
+  /* border:2px solid red; */
+  padding:1%;
+  width: 370px;
 }
-
-.table {
-  padding: 0%;
+.section__footer__upper__Verzeo__header{ 
+  /* border:2px solid red; */
+  padding:1%;
+  font-size:30px;
+  color: orange;
+  font-family: Montserrat;
 }
-.table tr{
-  height: 0%;
-
-}   
-.table td {
-  width: 50%;
-  height: 0%;
-}
-.table img {
-  margin: 0%;
-  display: block;
-  border: 10px solid rgba(255, 166, 0, 0.562);
-  border-radius: 5px;
-}
-#para{
-  background: yellow;
-  width: 50%;
-  height: 20%;
-  bottom: 0%;
-}
-
-.secondcontent {
-  margin: auto;
-  width: 1300px;
-  height:200px;
-  display: block;
-  float: right;
-  margin-right: 120px;
-  margin-bottom: 2%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.row2 {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row2,
-.row2 > .column2 {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column2 {
-  float: left;
-  width: 23%;
-  margin-left: 2%;
-  box-shadow: -5px 5px 5px rgba(255, 166, 0, 0.363);
-  border: 1px solid orange;
-}
-
-/* Clear floats after rows */ 
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content2 {
-   background-color: rgba(255, 166, 0, 0.356); 
-  padding: 10px;
-  color:  #222222;
-}
-.section__design__header h1 {
-  font-size: 36px;
+.section__footer__upper__Verzeo__content{ 
+  /* border:2px solid red; */
+  padding:3%;
+  margin-top:5%;
+  font-size:14px;
+  color: rgb(183, 59, 187);
+  
+  font-family: Nunito;
+  color:rgb(190, 14, 196);
+  font-size: 14px;
+  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 800;
+  font-family: Nunito;
+  color: rgb(183, 59, 187);
+}
+
+
+
+
+/* Part 2 */
+
+
+
+.section__footer__upper__one{
+  /* border:2px solid red; */
+  padding:1%;
+  width:fit-content;
+
+}
+.section__footer__upper__one__header{ 
+  /* border:2px solid red; */
+  padding:1%;
+  font-size:16px;
   font-family: Montserrat;
-   margin-bottom: 15%; 
-  border-bottom: 3px solid rgba(114, 89, 89, 0.507);
-  padding-bottom: 2%;
   color: orange;
 }
+.section__footer__upper__one__content{ 
+  /* border:2px solid red; */
+  padding:3%;
+  /* margin-top:5%; */
+  font-size:12px;
+  
+  font-family: Nunito;
+}
+.section__footer__upper__one__content li{ 
+  /* border:2px solid red; */
+ list-style: none;
+  
+  font-family: Nunito;
+  
+}
+.section__footer__upper__one__content li a{ 
+  /* border:2px solid red; */
+ list-style: none;
+ font-size: 10px;
+  
+  font-family: Nunito;
+  
+}
+
+
+
+
+/* Part 3 */
+/* upper  */
+
+
+
+.section__footer__upper__two{
+  /* border:2px solid red; */
+  padding:1%;
+  margin-left:5% !important;
+  width: 200px !important;
+}
+.section__footer__upper__two__upper__header{ 
+  /* border:2px solid red; */
+  padding:1%;
+  font-size:16px;
+  color: orange;
+  font-family: Montserrat;
+}
+.section__footer__upper__two__upper__content{ 
+  /* border:2px solid red; */
+  padding:3%;
+  /* margin-top:5%; */
+  font-size:12px;
+  
+  font-family: Nunito;
+}
+.section__footer__upper__two__upper__content li{ 
+  /* border:2px solid red; */
+ list-style: none;
+  
+  font-family: Nunito;
+  font-size: 8px;
+  outline: none;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Nunito;
+  color: rgb(183, 59, 187);
+  
+}
+
+
+
+/* Part 3 */
+/* lower  */
+
+
+
+.section__footer__upper__two{
+  /* border:2px solid red; */
+  padding:1%;
+  width: fit-content;
+}
+.section__footer__upper__two__lower__header{ 
+  /* border:2px solid red; */
+  margin-top:5%;
+  padding:1%;
+  font-size:16px;
+  font-family: Montserrat;
+  color: orange;
+}
+.section__footer__upper__two__lower__content{ 
+  /* border:2px solid red; */
+  padding:3%;
+  /* margin-top:5%; */
+  font-size:12px;
+  
+  font-family: Nunito;
+}
+.section__footer__upper__two__lower__content li{ 
+  /* border:2px solid red; */
+ list-style: none;
+  
+  font-family: Nunito;
+  font-size: 8px;
+  outline: none;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: Nunito;
+  color: rgb(183, 59, 187);
+  
+}
+
+/* part 4 */
+
+.section__footer__upper__three{
+  /* border:2px solid red; */
+  padding:1%;
+  width: fit-content;
+}
+.section__footer__upper__three__header{ 
+  /* border:2px solid red; */
+  padding:1%;
+  font-size:16px;
+  color: orange;
+  font-family: Montserrat;
+}
+.section__footer__upper__three__content{ 
+  /* border:2px solid red; */
+  padding:3%;
+  margin-top:5%;
+  font-size:10px;
+  
+  font-family: Nunito;
+}
+.section__footer__upper__three__content ul li{
+  list-style: none;
+ 
+}
+.section__footer__upper__three__content ul li a{
+  list-style: none;
+  font-size:10px;
+ 
+}
+
+
+
+
+/* part 5 */
+
+
 
 /*****************************************************************************/
 
@@ -730,7 +789,6 @@ position: absolute;
 
 
 /* part 5 */
-
 
 
 .section__footer__upper__four{
