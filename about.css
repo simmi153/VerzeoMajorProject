@@ -420,3 +420,12 @@ line-height: 20px;
 .section__work {
   margin-top:40%;
 }
+.icon{
+  min-width:40px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  font-size: 12px;
+  color: purple;
+}
