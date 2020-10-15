@@ -5,18 +5,7 @@
   margin: 0px;
   padding: 0px;
 }
-.header__main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100% !important;
-  margin: auto;
-  padding: 2%;
-  box-shadow: 0px 5px 23px -4px rgba(0, 0, 0, 0.75);
-  background: rgb(255,244,238);
-  background: linear-gradient(90deg, rgba(255,244,238,1) 15%, rgba(245,241,236,1) 51%, rgba(255,252,246,1) 93%);
-}
+
 
 .header__main__navbars {
   padding: 1%;
