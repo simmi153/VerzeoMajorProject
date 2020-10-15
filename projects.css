@@ -73,3 +73,22 @@
 .section__whatwedo__img{
     /* border:2px solid red; */
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .section__whatwedo__img img{
+        width:80%;
+        height: 200px;
+        
+    }
+
+
+}
