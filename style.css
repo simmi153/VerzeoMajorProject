@@ -203,6 +203,7 @@ ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom:6%;
 }
 .section__work__images__row__col img {
   width: 100%;
